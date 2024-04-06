@@ -71,48 +71,21 @@ body {
     background-color: #fff;
 }
 
-
-@keyframes squiggly-anim
-  0%
-    filter url('#squiggly-0')
-  
-  25%
-    filter url('#squiggly-1')
-  
-  50%
-    filter url('#squiggly-2')
-  
-  75%
-    filter url('#squiggly-3')
-  
-  100%
-    filter url('#squiggly-4')
-
-
-[tabindex="-1"]:focus {
-    outline: 0 !important;
-}
- 
-$squiggly
-  animation squiggly-anim 0.34s linear infinite
-
-.test
-  @extend $squiggly
-  display inline-block
-  vertical-align middle
-  width 100%
-  
-  outline none
-  text-align center
-  line-height 1
-
-
-.small
-  font-size 0.5em
-
-.smaller
-  font-size 0.4em
-
+<style type='text/css'>
+    div{ border : solid 1px;}
+    div #wrapper{
+        width:600px;
+        height:600px;
+        border:none;
+    }
+    div.one{
+        width:140px;
+        height:140px;
+        margin-left:8px;
+        margin-top:8px;
+        float:left;
+        background-color:red;
+    }
 hr {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
