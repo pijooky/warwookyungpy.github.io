@@ -10099,16 +10099,17 @@ body {
 
 
 .swiper-pagination-bullet {
-    width : 10px;
-    height : 10px;
-    border-radius : 0;
+    width : 8px;
+    height : 8px;
     background-color : #fff;
+    border-radius : 0;
+    opacity: 0.2;
 
 }
 
 .swiper-pagination-bullet-active {
     background: #fff;
-    width : 80px;
+    width : 10px;
 }
 
 .swiper-button-next.swiper-button-disabled,
