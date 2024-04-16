@@ -1,0 +1,19 @@
+.grid {
+  width: 80%;
+  margin: auto;
+}
+.grid-sizer,
+.grid-item {
+  width: 23%;
+  cursor: pointer;
+}
+.grid-item {
+  margin-bottom: 15px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.grid-item img {
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+}
