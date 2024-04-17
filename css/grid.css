@@ -12,7 +12,6 @@
   .grid-sizer,
   .grid-item {
     width: 45%;
-    cursor: pointer;
   }
 }
 
@@ -20,7 +19,6 @@
   .grid-sizer,
   .grid-item {
     width: 28%;
-    cursor: pointer;
   }
 }
 
@@ -28,7 +26,6 @@
   .grid-sizer,
   .grid-item {
     width: 31%;
-    cursor: pointer;
   }
 }
 
@@ -36,7 +33,6 @@
   .grid-sizer,
   .grid-item {
     width: 23%;
-    cursor: pointer;
   }
 }
 
